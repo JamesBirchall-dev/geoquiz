@@ -86,24 +86,73 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'what is 2+2',
+        question: 'What is the largest continent by area?',
         answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false},
+            { text: 'Asia', correct: true },
+            { text: 'Europe', correct: false }
         ]
     },
- {
-        question: 'what is 3+2',
+    {
+        question: 'Which country has the longest coastline in the world?',
         answers: [
-            { text: '4', correct: true},
-            { text: '24', correct: false},
+            { text: 'Canada', correct: true },
+            { text: 'Russia', correct: false }
         ]
     },
- {
-        question: 'what is 3x2',
+    {
+        question: 'What is the capital city of Brazil?',
         answers: [
-            { text: '4', correct: true},
-            { text: '52', correct: false},
+            { text: 'Brasília', correct: true },
+            { text: 'Rio de Janeiro', correct: false }
         ]
     },
-]
+    {
+        question: 'The River Nile flows into which sea?',
+        answers: [
+            { text: 'Mediterranean Sea', correct: true },
+            { text: 'Arabian Sea', correct: false }
+        ]
+    },
+    {
+        question: 'Mount Everest lies on the border between which two countries?',
+        answers: [
+            { text: 'Nepal and China', correct: true },
+            { text: 'India and China', correct: false }
+        ]
+    },
+    {
+        question: 'What is the smallest country in the world by area?',
+        answers: [
+            { text: 'Vatican City', correct: true },
+            { text: 'Monaco', correct: false }
+        ]
+    },
+    {
+        question: 'Which desert is the largest in the world (non-polar)?',
+        answers: [
+            { text: 'Sahara', correct: true },
+            { text: 'Gobi', correct: false }
+        ]
+    },
+    {
+        question: 'What line divides the Earth into Northern and Southern Hemispheres?',
+        answers: [
+            { text: 'Equator', correct: true },
+            { text: 'Prime Meridian', correct: false }
+        ]
+    },
+    {
+        question: 'Which country has the most time zones (including overseas territories)?',
+        answers: [
+            { text: 'France', correct: true },
+            { text: 'United States', correct: false }
+        ]
+    },
+    {
+        question: 'What is the name of the largest island in the world?',
+        answers: [
+            { text: 'Greenland', correct: true },
+            { text: 'Borneo', correct: false }
+        ]
+    }
+];
