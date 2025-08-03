@@ -89,18 +89,17 @@ const questions = [
         ]
     },
  {
-        question: 'what is 2+2',
+        question: 'what is 3+2',
         answers: [
             { text: '4', correct: true},
-            { text: '22', correct: false},
+            { text: '24', correct: false},
         ]
     },
  {
-        question: 'what is 2+2',
+        question: 'what is 3x2',
         answers: [
             { text: '4', correct: true},
-            { text: '22', correct: false},
+            { text: '52', correct: false},
         ]
     },
-
 ]
