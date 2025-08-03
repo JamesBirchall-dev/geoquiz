@@ -33,7 +33,11 @@ function setNextQuestion() {
 // displays question
 function showQuestion(question) {
     questionElement.innerText = question.question
-    question.answers.forEach(answer => { //creates buttons for answers
+
+    // ensures answers are shuffled 
+    const shuffledAnswers = question.answers.sort(() => Math.random() - 0.5)
+    
+    shuffledAnswers.forEach(answer => { //creates buttons for answers
         const button = document.createElement ('button')
         button.innerText = answer.text
         button.classList.add('btn')
