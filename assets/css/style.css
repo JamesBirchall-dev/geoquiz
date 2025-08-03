@@ -9,6 +9,10 @@
     --hue-correct: 145;
 }
 
+/* Header image section*/
+
+
+
 body {
     --hue: var(--hue-neutral);
     padding: 0;
@@ -18,7 +22,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: hsl(var(--hue), 80%, 65%);
 }
 
 body.correct {
@@ -83,3 +87,5 @@ body.wrong {
 .hide {
     display:none;
 }
+
+
